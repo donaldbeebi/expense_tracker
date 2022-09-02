@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CSCI3310 Financial Logger</string>
+    <string name="view_by_raw_records">"View By Raw Records</string>
+    <string name="view_by_graphs">View By Graphs</string>
+    <string name="please_select_a_category">Please select a category</string>
+    <string name="go">View Chart</string>
+    <string name="please_select_a_time">Please select a time</string>
+    <string name="please_select_a_graph_type">Please select a graph type</string>
+    <string name="food">Food</string>
+    <string name="daily_necessities">Daily Necessities</string>
+    <string name="transport">Transport</string>
+    <string name="clothes">Clothes</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="transfer_fee">Transfer Fee (remove me)</string>
+    <string name="health">Health</string>
+    <string name="beauty">Beauty</string>
+    <string name="utilities">Utilities</string>
+    <string name="others">Others</string>
+    <string name="by_days">By Days</string>
+    <string name="by_months">By Months</string>
+    <string name="by_years">By Years</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="line_chart">Line Chart</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="overview_button">overview</string>
+    <string name="title_activity_game_transaction">GameTransactionActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="buy_wheels">Buy Wheels</string>
+    <string name="spinning_wheel">Spinning Wheel</string>
+    <string name="spin_button_text">Spin</string>
+    <string name="all">All</string>
+    <string name="drinks">Drinks</string>
+    <string name="services">Services</string>
+</resources>

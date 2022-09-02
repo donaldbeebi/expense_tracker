@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cuhk.expensetracker">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Csci3310_FinacialLogger">
+        <activity android:name="edu.cuhk.expensetracker.GameActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.cuhk.expensetracker.GameTransactionActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_game_transaction">
+        </activity>
+        <activity android:name="edu.cuhk.expensetracker.AddPresetActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="edu.cuhk.expensetracker.PieChartActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="edu.cuhk.expensetracker.LineChartActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="edu.cuhk.expensetracker.BarChartActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="edu.cuhk.expensetracker.GraphOptionsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="edu.cuhk.expensetracker.OverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="edu.cuhk.expensetracker.RecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="edu.cuhk.expensetracker.InputActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="edu.cuhk.expensetracker.LoggingActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

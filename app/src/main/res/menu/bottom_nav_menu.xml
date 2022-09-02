@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/select_wheels_nav_button"
+        android:enabled="true"
+        android:icon="@drawable/buy_wheels_icon_temp"
+        android:title="@string/buy_wheels"/>
+    <item
+        android:id="@+id/spinning_wheel_nav_button"
+        android:enabled="true"
+        android:icon="@drawable/spinning_wheel_icon_temp"
+        android:title="@string/spinning_wheel"/>
+</menu>

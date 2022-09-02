@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inputType"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity">
+
+    <TextView
+        android:id="@+id/add_preset_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="PRESET TITLE"
+        android:textColor="#A5A1A1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/add_preset_title_input"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/add_preset_title_input"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:inputType="textPersonName"
+        android:textColor="#3F3F3F"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_preset_title_text_view" />
+
+    <TextView
+        android:id="@+id/add_preset_amount_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="RRESET AMOUNT"
+        android:textColor="#A5A1A1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/add_preset_title_input"
+        app:layout_constraintTop_toBottomOf="@+id/add_preset_title_input" />
+
+    <EditText
+        android:id="@+id/add_preset_amount_input"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:inputType="numberDecimal"
+        android:textColor="#3F3F3F"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/add_preset_amount_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/add_preset_amount_text_view" />
+
+    <TextView
+        android:id="@+id/add_preset_category_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="PRESET CATEGORY"
+        android:textColor="#A5A1A1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/add_preset_title_input"
+        app:layout_constraintTop_toBottomOf="@+id/add_preset_amount_input" />
+
+    <EditText
+        android:id="@+id/add_preset_category_input"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:onClick="showCategory"
+        android:padding="4sp"
+        android:text="Click to Select a Category"
+        android:textColor="#A5A1A1"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/add_preset_title_input"
+        app:layout_constraintTop_toBottomOf="@+id/add_preset_category_text_view" />
+
+    <Button
+        android:id="@+id/SavePresetButton"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="48dp"
+        android:text="Save Preset"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

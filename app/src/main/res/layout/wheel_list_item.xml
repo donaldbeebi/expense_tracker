@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_wheel_preview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/spinning_wheel_farm"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="24dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/item_wheel_preview"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:text="test title"
+        android:textSize="20sp"
+        android:fontFamily="@font/eight_bit"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_title"
+        android:layout_alignStart="@+id/item_title"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="test price"
+            android:textSize="12sp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/eight_bit"/>
+        <ImageView
+            android:id="@+id/coin_cost_image_view"
+            android:layout_width="12sp"
+            android:layout_height="12sp"
+            android:src="@drawable/coin"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/item_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_centerVertical="true"
+        android:text="Buy"
+        android:textSize="8dp"
+        android:minHeight="48dp"
+        android:minWidth="0dp"
+        android:padding="6dp"
+        android:fontFamily="@font/eight_bit"
+        android:layout_gravity="center_vertical"/>
+
+</RelativeLayout>

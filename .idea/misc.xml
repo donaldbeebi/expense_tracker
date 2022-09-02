@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Donald/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_game_transaction.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Donald/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_graph_options.xml" value="0.2765625" />
+        <entry key="..\:/Users/Donald/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_input.xml" value="0.1" />
+        <entry key="..\:/Users/Donald/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_logging.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Donald/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_main.xml" value="0.2171875" />
+        <entry key="..\:/Users/Donald/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/fragment_preset.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Donald/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/presetlist_item.xml" value="0.2" />
+        <entry key="..\:/Users/Donald/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/recordlist_item.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

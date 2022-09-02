@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/time1"
+        android:title="@string/by_days"/>
+    <item android:id="@+id/time2"
+        android:title="@string/by_months"/>
+    <item android:id="@+id/time3"
+        android:title="@string/by_years"/>
+</menu>

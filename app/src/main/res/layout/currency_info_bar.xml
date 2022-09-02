@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimary"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/bucks_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/buck" />
+
+    <TextView
+        android:id="@+id/bucks_text_view_game"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/eight_bit"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/coins_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/coin" />
+
+    <TextView
+        android:id="@+id/coins_text_view_game"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginEnd="4dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/eight_bit"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
