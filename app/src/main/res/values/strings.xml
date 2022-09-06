@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CSCI3310 Financial Logger</string>
+    <string name="app_name">Expense Tracker</string>
     <string name="view_by_raw_records">"View By Raw Records</string>
     <string name="view_by_graphs">View By Graphs</string>
     <string name="please_select_a_category">Please select a category</string>
